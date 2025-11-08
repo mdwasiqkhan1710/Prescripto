@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap")
+  .active hr {
+  @apply block;
+}
+
+::-webkit-scrollbar {
+  @apply hidden;
+}
+
+@media (max-w-740px) {
+  .active p {
+    @apply text-white bg-[#414aafff];
+  }
+}
+
+* {
+  font-family: Outfit;
+}
