@@ -210,6 +210,22 @@ const Login = () => {
                   </p>
                 )}
               </div>
+
+              {/* Admin / Doctor Login Link */}
+              <div className="text-center text-sm">
+                <p className="text-gray-600 text-sm md:text-base">
+                  Are you an Admin or Doctor?{" "}
+                  <span
+                    onClick={() => {
+                      window.location.href =
+                        "https://prescripto-admin-oit1.onrender.com/";
+                    }}
+                    className="text-blue-600 hover:text-purple-800 font-semibold cursor-pointer transition-colors duration-200"
+                  >
+                    Login here
+                  </span>
+                </p>
+              </div>
             </div>
           </form>
         </div>
