@@ -5,7 +5,7 @@ import { toast } from "react-toastify";
 export const DoctorContext = createContext();
 
 const DoctorContextProvider = (props) => {
-  const backendUrl = import.meta.env.VITE_BACKEND_URL;
+  const backendUrl =  "https://prescripto-backend-ozat.onrender.com";
 
   const storedToken = localStorage.getItem("dToken") || "";
   const [dToken, setDToken] = useState(storedToken);
