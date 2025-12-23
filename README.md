@@ -2,6 +2,8 @@
 
 A full-stack Doctor Appointment Booking and Doctor Listing Platform built using the MERN Stack (MongoDB, Express.js, React.js, Node.js). This application allows patients, doctors, and administrators to interact through a secure, role-based system for booking and managing medical appointments.
 
+## Live Demo Link - https://prescripto-frontend-new-fzoj.onrender.com/
+
 ## 👤 Patient
 - Register & login securely
 - Browse doctors and view profiles
